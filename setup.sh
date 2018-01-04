@@ -11,7 +11,7 @@
 # Give file permission to file
 sudo chown -R $(whoami) wp-content/themes/
 
-# # Clone repository
+# Clone repository
 cd wp-content/themes
 git clone git@github.com:joakimremler/WP_Theme-Basic-api.git
 cd ../..
